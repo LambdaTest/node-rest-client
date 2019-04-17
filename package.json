@@ -1,0 +1,21 @@
+{
+  "name": "lambdatest",
+  "version": "1.0.0",
+  "description": "Nodejs bindings for lambdatest",
+  "main": "index.js",
+  "repository": "LambdaTest/lambdatest",
+  "author": "LambdaTest",
+  "contributors": [
+    "Kanhaiya Lal Singh <kanhaiyas@lambdatest.com> (https://github.com/kanhaiya15)",
+    "Nikhil Yadav <nikhily@lambdatest.com> (https://github.com/nikhil-lambda)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaTest/lambdatest/issues"
+  },
+  "homepage": "https://github.com/LambdaTest/lambdatest#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "winston": "^3.2.1"
+  }
+}
