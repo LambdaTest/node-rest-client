@@ -1,19 +1,19 @@
 {
-  "name": "lambdatest",
+  "name": "node-rest-client",
   "version": "1.0.0",
-  "description": "Nodejs bindings for lambdatest",
+  "description": "LambdaTest Rest Client for Node.js",
   "main": "index.js",
-  "repository": "LambdaTest/lambdatest",
+  "repository": "LambdaTest/node-rest-client",
   "author": "LambdaTest",
   "contributors": [
-    "Kanhaiya Lal Singh <kanhaiyas@lambdatest.com> (https://github.com/kanhaiya15)",
-    "Nikhil Yadav <nikhily@lambdatest.com> (https://github.com/nikhil-lambda)"
+    "Kanhaiya Lal Singh <kanhaiyas@lambdatest.com> (https://www.npmjs.com/~kanhaiyalalsingh)",
+    "Nikhil Yadav <nikhily@lambdatest.com> (https://www.npmjs.com/~nikhily)"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LambdaTest/lambdatest/issues"
+    "url": "https://github.com/LambdaTest/node-rest-client/issues"
   },
-  "homepage": "https://github.com/LambdaTest/lambdatest#readme",
+  "homepage": "https://github.com/LambdaTest/node-rest-client#readme",
   "dependencies": {
     "request": "^2.88.0",
     "winston": "^3.2.1"

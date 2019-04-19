@@ -5,13 +5,13 @@ A Node.js JavaScript client for working with [LambdaTest](https://www.lambdatest
 ## Installation
 
 ```
-npm i lambdatest
+npm i @lambdatest/node-rest-client
 ```
 
 ## Example
 
 ```js
-var lambdaRestClient = require("lambdatest");
+var lambdaRestClient = require("@lambdatest/node-rest-client");
 var lambdaCredentials = {
   username: "kanha",
   accessKey: "@%3464vc432#%jdsfdsnjgfdg"
