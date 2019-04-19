@@ -23,10 +23,9 @@ var lambdaAutomationClient = lambdaRestClient.AutomationClient(
 );
 
 lambdaAutomationClient.fetchBuilds(function(error, builds) {
-  if (error) {
-    console.log(error);
+  if (!error) {
+    console.log(builds);
   }
-  console.log("Builds : " + builds);
 });
 ```
 
