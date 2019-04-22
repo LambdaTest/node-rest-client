@@ -47,7 +47,7 @@ This object is dedicated to help you perform any operation on your test builds.
 
 Fetch all the details regarding test builds.
 
-- `params`: Parameters(offset, limit, status, fromdate, todate, sort)
+- (optional) `params`: Parameters(offset, limit, status, fromdate, todate, sort)
   - `offset` - used to limit the number of lists. For example: offset=10
   - `limit` - used to limit the number of records. For example: limit=10
   - `status` - used to extract the status for list of builds in comma separated format. For example: "running,queued,completed,timeout and error"
@@ -90,8 +90,7 @@ This object is dedicated to help you perform any operation related to your test 
 
 Fetch all the details regarding test sessions.
 
-- `params`: Parameters(build_id, username, offset, limit, status, fromdate, todate, sort)
-- `callback` (`function(error, builds)`): A callback to invoke when the API call is complete.
+- (optional) `params`: Parameters(build_id, username, offset, limit, status, fromdate, todate, sort)
   - `build_id` - to filter sessions executed in a particular build.
   - `username` - to filter sessions executed by a particular user.
   - `offset` - used to limit the number of lists. For example: offset=10
