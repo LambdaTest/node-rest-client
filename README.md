@@ -31,7 +31,7 @@ lambdaAutomationClient.fetchBuilds(function(error, builds) {
 
 ## API
 
-### Automate API v1
+### Automation API v1
 
 #### lambdaRestClient.AutomationClient(lambdaCredentials)
 
