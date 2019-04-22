@@ -38,6 +38,7 @@ lambdaAutomationClient.fetchBuilds(function(error, builds) {
 #### lambdaRestClient.AutomationClient(lambdaCredentials)
 
 Creates a new automation client instance.
+
 - `lambdaCredentials`: credentials for all requests.
   - `username`: The username for the LambdaTest account.
   - `accessKey`: The accessKey for the LambdaTest account.
