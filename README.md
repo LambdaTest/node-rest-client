@@ -1,3 +1,5 @@
+![LambdaTest Logo](https://www.lambdatest.com/static/images/logo.svg)
+
 # Node LambdaTest
 
 A Node.js JavaScript client for working with [LambdaTest](https://www.lambdatest.com) through [Automation API](https://www.lambdatest.com/support/docs/api-doc).
