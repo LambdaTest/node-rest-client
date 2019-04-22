@@ -15,8 +15,8 @@ npm i @lambdatest/node-rest-client
 ```js
 var lambdaRestClient = require("@lambdatest/node-rest-client");
 var lambdaCredentials = {
-  username: "kanha",
-  accessKey: "@%3464vc432#%jdsfdsnjgfdg"
+  username: "<Your username>",
+  accessKey: "<Your access key>"
 };
 
 // Automation APIs
