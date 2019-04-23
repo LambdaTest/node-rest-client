@@ -15,8 +15,8 @@ npm i @lambdatest/node-rest-client
 ```js
 var lambdaRestClient = require("@lambdatest/node-rest-client");
 var lambdaCredentials = {
-  username: "<Your username>",
-  accessKey: "<Your access key>"
+  username: process.env.LT_USERNAME || "<Your username>",
+  accessKey: process.env.LT_ACCESS_KEY || "<Your access key>"
 };
 
 // Automation APIs
@@ -42,6 +42,7 @@ Creates a new automation client instance.
 - `lambdaCredentials`: credentials for all requests.
   - `username`: The username for the LambdaTest account.
   - `accessKey`: The accessKey for the LambdaTest account.
+  - `logFile`: You can provide a specific path to log file.If you won't provide a path then the logs would be saved in your present working directory by the filename: lambda_api.log
 
 Build Object
 This object is dedicated to help you perform any operation on your test builds.
