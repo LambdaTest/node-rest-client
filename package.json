@@ -1,16 +1,13 @@
 {
-  "name": "@lambdatest/node-rest-client-v1",
-  "version": "1.0.4",
+  "name": "@lambdatest/node-rest-client",
+  "version": "1.0.0",
   "description": "LambdaTest Rest Client for Node.js",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaTest/node-rest-client.git"
   },
-  "author": {
-    "name": "LambdaTest",
-    "email": "keys@lambdatest.com"
-  },
+  "author": "LambdaTest <keys@lambdatest.com>",
   "contributors": [
     "Kanhaiya Lal Singh <kanhaiya1501@gmail.com> (https://www.npmjs.com/~kanhaiyalalsingh)",
     "Nikhil Yadav <nikhily@lambdatest.com> (https://www.npmjs.com/~nikhily)",
