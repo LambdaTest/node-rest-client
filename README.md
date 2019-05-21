@@ -1,6 +1,7 @@
 ![LambdaTest Logo](https://www.lambdatest.com/static/images/logo.svg)
 
 # Node LambdaTest
+[![npm version](https://badge.fury.io/js/%40lambdatest%2Fnode-rest-client.svg)](https://badge.fury.io/js/%40lambdatest%2Fnode-rest-client)
 
 A Node.js JavaScript client for working with [LambdaTest](https://www.lambdatest.com) through [Automation API](https://www.lambdatest.com/support/docs/api-doc).
 
