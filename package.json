@@ -1,6 +1,6 @@
 {
   "name": "@lambdatest/node-rest-client",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "LambdaTest Rest Client for Node.js",
   "main": "index.js",
   "repository": {
