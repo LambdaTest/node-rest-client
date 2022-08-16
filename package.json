@@ -25,6 +25,7 @@
     "testing"
   ],
   "dependencies": {
+    "lodash": "^4.17.21",
     "request": "^2.88.0",
     "winston": "^3.2.1"
   },
